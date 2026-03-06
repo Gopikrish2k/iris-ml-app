@@ -1,6 +1,6 @@
 import streamlit as st
-import joblib
 import numpy as np 
+from sklearn.externals import joblib
 
 model = joblib.load("iris_model.pkl")
 st.title("Iris Prediction")
